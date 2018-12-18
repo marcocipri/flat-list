@@ -3,8 +3,6 @@ python:
   - "3.6.2"
 install:
   - pip install -r requirements.txt
-  - "pip install zc.buildout"
-  - "buildout"
 script:
-  - pytest --show-capture=no
+  - py.test 
 
