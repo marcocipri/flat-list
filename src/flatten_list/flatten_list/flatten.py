@@ -40,18 +40,4 @@ def deep_flat(main_list):
     return main_list
 
 
-def req_flat(lst):
-	return sum( ([x] if not isinstance(x, list) else req_flat(x)
-		     for x in lst), [] )
 
-'''tail recursive by lambda... too slow'''
-flatten=lambda l: sum(map(flatten,l),[]) if isinstance(l,list) else [l]
-
-
-main_list = [1,2,[21,22],[31,32,[334,335, [3351,3352,3353],336,[3361,3362,3363]],4, 33,list(range(1000000))]]
-#main_list = [[1,2, [3]], 4]
-print('flatted ' + str(deep_flat(main_list)))
-
-print('flatted req ' + str(list(deepflatten(main_list))))
-
-print('flatted lambda ' + str(list(flatten(main_list))))
