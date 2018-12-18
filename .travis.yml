@@ -6,4 +6,5 @@ install:
   - "pip install zc.buildout"
   - "buildout"
 script:
-  - py.test --quiet
+  - py.test --show-capture=no
+
