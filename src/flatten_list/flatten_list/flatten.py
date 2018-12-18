@@ -1,5 +1,3 @@
-from iteration_utilities import deepflatten
-
 
 ''' checks if the element is a list '''
 def check_iterator(element):
