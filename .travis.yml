@@ -2,8 +2,8 @@ language: python
 python:
   - "3.6.2"
 install:
+  - pip install -r requirements.txt
   - "pip install zc.buildout"
-  - "pip install iteration_utilities"
   - "buildout"
 script:
   - py.test
