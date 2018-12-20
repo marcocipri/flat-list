@@ -11,9 +11,9 @@ This project is generated using the `python_boilerplate` paster template. It pro
 
 Notes
 ==========================
-solving this problem I've began with a tail recursive approach but, at least in case of Python,
+ 1. solving this problem I've began with a tail recursive approach but, at least in case of Python,
 I switched to this 'no recursive' solution because poor performance
-Travis integration : https://travis-ci.org/marcocipri/flat-list
+ 2. Travis integration : https://travis-ci.org/marcocipri/flat-list
 
 Preparation
 -----------
