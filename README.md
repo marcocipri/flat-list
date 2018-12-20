@@ -8,6 +8,12 @@ This project is generated using the `python_boilerplate` paster template. It pro
   * [buildout](http://www.buildout.org/) for managing development tools or developing multiple-package projects
   * Usage of the [Travis-CI](https://travis-ci.org/) continuous integration service.
 
+
+Note
+==========================
+solving this problem I've began with a tail recursive approach but, at least in case of Python,
+I switched to this 'no recursive' solution because poor performance
+
 Preparation
 -----------
 
