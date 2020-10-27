@@ -6,7 +6,7 @@ cffi==1.11.5
 chardet==3.0.4
 Click==7.0
 cookiecutter==1.6.0
-cryptography==2.3.1
+cryptography==3.2
 cryptography-vectors==2.3.1
 future==0.16.0
 idna==2.8
